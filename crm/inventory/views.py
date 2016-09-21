@@ -77,4 +77,5 @@ def available_list(request):
 		print('api to get the available list of products in inventory')
         return HttpResponse('TODO')
     else:
+		print('need to update the api)
         return HttpResponse('TODO')
