@@ -74,6 +74,7 @@ def inventory_entry(request):
 @api_view(['GET'])
 def available_list(request):
     if request.method == 'GET':
+		print('api to get the available list of products in inventory')
         return HttpResponse('TODO')
     else:
         return HttpResponse('TODO')
