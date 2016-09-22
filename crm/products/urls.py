@@ -8,3 +8,4 @@ urlpatterns = [
     url(r'^list_all_products/', views.list_all_products, name='list_all_products'),
     url(r'^show_urls/', views.show_urls, name='show_urls'),
 ]
+
