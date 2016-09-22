@@ -78,4 +78,5 @@ def available_list(request):
         return HttpResponse('TODO')
     else:
 		print('need to update the api)
+		message = 'not able to run services'
         return HttpResponse('TODO')
