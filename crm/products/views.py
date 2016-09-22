@@ -81,3 +81,6 @@ def show_urls(request, depth=0):
         content = {'message': 'Unable to fetch the data'}
         response = json.dumps(content)
         return HttpResponse(response)
+
+def add_url(request):
+	pass
