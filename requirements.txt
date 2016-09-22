@@ -1,1 +1,2 @@
 # List of packages & dependencies that needs to be install before running the application
+Django==1.9.6
